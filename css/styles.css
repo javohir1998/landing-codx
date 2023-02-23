@@ -82,6 +82,10 @@ select:-webkit-autofill:focus {
 
 
 /* HEADER */
+.site-header {
+  margin-bottom: 63px;
+}
+
 .site-header__wrapper {
   display: flex;
   align-items: center;
@@ -209,6 +213,51 @@ select:-webkit-autofill:focus {
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
+}
+
+/* INTRO */
+.intro {
+}
+
+.intro-wrapper {
+  display: flex;
+  position: relative;
+  padding: 50 0 180;
+}
+
+.intro-info {
+}
+
+.intro-sup {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 14px;
+  letter-spacing: 0.48px;
+  color: #82CBAC;
+}
+
+.intro-title {
+}
+
+.intro-sub {
+}
+
+.intro-images {
+  position: relative;
+}
+
+.intro-img-boy {
+  position: relative;
+  border-radius: 30px;
+}
+
+.intro-img-girl {
+  position: relative;
+  z-index: 1;
+  bottom: 225px;
+  left: 156px;
+  border-radius: 30px;
+  padding: 0;
 }
 
 
